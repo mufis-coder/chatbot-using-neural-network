@@ -53,14 +53,17 @@
     {
         "tag": "8",
         "patterns": ["siapakah anda", "boleh tahu nama kamu", "anda ini apa", "kamu itu apa", 
-        "apakah anda ini chatbot", "chatbot apa anda ini", "boleh kenalkan dirimu", "kenalin dirimu"],
+        "apakah anda ini chatbot", "chatbot apa anda ini", "boleh kenalkan dirimu", "kenalin dirimu", 
+        "kamu itu apa", "kamu itu siapa", "siapa kamu", "siapa namamu"],
         "responses": ["Hai saya adalah FisBot", "Halo, saya adalah FisBot", 
         "Hei, saya adalah chatbot yang bernama FisBot"]
     },
     {
         "tag": "9",
         "patterns": ["siapa yang menciptakan kamu", "kamu diciptakan oleh siapa", 
-        "boleh tau siapa penciptamu", "siapa si yang nyiptain kamu", "kamu diciptain siapa"],
+        "boleh tau siapa penciptamu", "siapa si yang nyiptain kamu", "kamu diciptain siapa", 
+        "siapa yang buat kamu", "siapa yang bikin kamu", "dibikin oleh siapa kamu", 
+        "dibuat oleh siapa kamu"],
         "responses": ["penciptaku adalah seorang mahasiswa bernama M Fikri Sunandar", 
         "aku diciptakan oleh Fikri, seorang mahasiswa Institut Teknologi Sepuluh Nopember", 
         "Nama penciptaku adalah Muhamad Fikri Sunandar, seseorang mahasiswa di ITS"]
