@@ -1,0 +1,25 @@
+{"intents": [
+    {
+        "tag": "salam",
+        "patterns": ["hallo", "halo", "apa kabar", "selamat pagi", "selamat siang", 
+        "selamat malam", "hai", "hey", "sedang apa", "boleh bertanya", "boleh nanya", 
+        "hola", "siang", "malam", "pagi"],
+        "responses": ["Hallo juga, apakah apa yang bisa saya bantu", 
+        "Hai, tentu anda boleh bertanya. Silahkan ajukan pertanyaan anda", 
+        "Selamat gini hari juga, apakah ada yang bisa saya bantu?"]
+    },
+    {
+        "tag": "selamattinggal",
+        "patterns": ["dadah", "selamat tinggal", "terimakasih banyak", "lihat nanti lagi yaa",
+        "makasih"],
+        "responses": ["Baik, senang bisa membantu anda", "Okei, selamat tinggal", 
+        "Baik, hubungi lagi saya jika anda butuh sesuatu"]
+    },
+    {
+        "tag": "nama",
+        "patterns": ["siapakah", "boleh tahu nama", "anda ini apa", "apakah anda ini chatbot", 
+        "chatbot apa anda ini"],
+        "responses": ["nama saya adalah FisBot", "Halo, saya adalah FisBot", 
+        "Hei, saya adalah chatbot yang bernama FisBot"]
+    }
+]}
