@@ -59,8 +59,11 @@ def get_response(intents_list, intents_json):
     for i in list_of_intents:
         if i['tag'] == tag:
             result = random.choice(i['responses'])
+            extend = ''
+            if "extend" in i:
+                extend = " " + i["extend"]
             break
-    return result
+    return result, extend
 
 
 def answer_generator(quest, ans):
@@ -87,6 +90,7 @@ print("FisBot is running!")
 while True:
     message = input("")
     ints = predict_class(message)
-    res = get_response(ints, intents)
-    res = answer_generator(message, res)
+    res, extend = get_response(ints, intents)
+    res = answer_generator(message, res) + extend
     print("FisBot: " + res)
+    print()

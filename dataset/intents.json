@@ -1,7 +1,8 @@
 {"intents": [
     {
         "tag": "1",
-        "patterns": ["hallo", "halo", "apa kabar", "hai", "hey", "sedang apa", "hola", "hallo FisBot"],
+        "patterns": ["hallo", "halo", "apa kabar", "hai", "hey", "sedang apa", "hola", "hallo FisBot",
+        "hei"],
         "responses": ["Hallo juga, apakah apa yang bisa saya bantu?", 
         "hai juga, apakah anda perlu bantuan?", "apakah ada yang bisa saya bantu?"]
     },
@@ -67,5 +68,21 @@
         "responses": ["penciptaku adalah seorang mahasiswa bernama M Fikri Sunandar", 
         "aku diciptakan oleh Fikri, seorang mahasiswa Institut Teknologi Sepuluh Nopember", 
         "Nama penciptaku adalah Muhamad Fikri Sunandar, seseorang mahasiswa di ITS"]
+    },
+    {
+        "tag": "10",
+        "patterns": ["cara generate token", "cara hit token", "cara membuat token", 
+        "cara dapat token", "Saya bingung cara mendapatkan token"],
+        "responses": ["Dalam OAuth Client, pilih client id aplikasi anda, kemudian klik link 'Request token'. Anda juga bisa mengetes token generation melalui API utility Get Token."],
+        "extend": "<br><br>Informasi lengkapnya: <b><a href=\"digitalservices.bni.co.id/documentation/public/en\" target=\"_blank\">digitalservices.bni.co.id/documentation/public/en</a></b>"
+    },
+    {
+        "tag": "11",
+        "patterns": ["isi country code gimana?", "Bagaimana cara mengisi field countryCode?", 
+        "Mau tau countryCode", "Cari di mana kode negara?", "countryCode?", "nggak tahu country code", 
+        "Kode negara tahu dari mana?", "country code?", "Kode negara?", "kode negara seperti apa?"],
+        "responses": ["Kode negara atau country code bisa anda buka di sini", 
+        "Anda bisa membuka kode negara atau CountryCode di sini"],
+        "extend": "<b><a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements\" target=\"_blank\">https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements</a></b> (contohnya, Singapura = SG)"
     }
 ]}
