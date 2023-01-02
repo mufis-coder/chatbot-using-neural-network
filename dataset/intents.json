@@ -1,25 +1,68 @@
 {"intents": [
     {
-        "tag": "salam",
-        "patterns": ["hallo", "halo", "apa kabar", "selamat pagi", "selamat siang", 
-        "selamat malam", "hai", "hey", "sedang apa", "boleh bertanya", "boleh nanya", 
-        "hola", "siang", "malam", "pagi"],
-        "responses": ["Hallo juga, apakah apa yang bisa saya bantu", 
-        "Hai, tentu anda boleh bertanya. Silahkan ajukan pertanyaan anda", 
-        "Selamat gini hari juga, apakah ada yang bisa saya bantu?"]
+        "tag": "1",
+        "patterns": ["hallo", "halo", "apa kabar", "hai", "hey", "sedang apa", "hola", "hallo FisBot"],
+        "responses": ["Hallo juga, apakah apa yang bisa saya bantu?", 
+        "hai juga, apakah anda perlu bantuan?", "apakah ada yang bisa saya bantu?"]
     },
     {
-        "tag": "selamattinggal",
-        "patterns": ["dadah", "selamat tinggal", "terimakasih banyak", "lihat nanti lagi yaa",
+        "tag": "2",
+        "patterns": ["pagi", "selamat pagi", "pagi FisBot"],
+        "responses": ["hallo, selamat pagi juga. Apakah anda perlu bantuan?", 
+        "pagi juga, apakah anda ada pertanyaan?"]
+    },
+    {
+        "tag": "3",
+        "patterns": ["siang", "selamat siang", "siang FisBot"],
+        "responses": ["hallo, selamat siang juga. Apakah anda perlu bantuan?", 
+        "siang juga, apakah anda ada pertanyaan?", "siang bos, apakah anda perlu bantuan?"]
+    },
+    {
+        "tag": "4",
+        "patterns": ["sore", "selamat sore", "sore FisBot"],
+        "responses": ["hallo, selamat sore juga. Apakah anda perlu bantuan?", 
+        "sore juga, apakah anda ada pertanyaan?", "sore bos, apakah anda perlu bantuan?"]
+    },
+    {
+        "tag": "4",
+        "patterns": ["malam", "selamat malam", "malam FisBot"],
+        "responses": ["hallo, selamat malam juga. Apakah anda perlu bantuan?", 
+        "malam juga, apakah anda ada pertanyaan?", "malam bos, apakah anda perlu bantuan?"]
+    },
+    {
+        "tag": "5",
+        "patterns": ["dadah", "selamat tinggal", "lihat nanti lagi yaa",
         "makasih"],
-        "responses": ["Baik, senang bisa membantu anda", "Okei, selamat tinggal", 
-        "Baik, hubungi lagi saya jika anda butuh sesuatu"]
+        "responses": ["Baik, selamat tinggal. Senang bisa membantu anda", 
+        "Okei, selamat tinggal", "Baik, selamat tinggal. Hubungi lagi saya jika anda butuh sesuatu"]
     },
     {
-        "tag": "nama",
-        "patterns": ["siapakah", "boleh tahu nama", "anda ini apa", "apakah anda ini chatbot", 
-        "chatbot apa anda ini"],
-        "responses": ["nama saya adalah FisBot", "Halo, saya adalah FisBot", 
+        "tag": "6",
+        "patterns": ["terimakasih", "terima kasih", "makasih", "terimakasih banyak", 
+        "terima kasih FisBot"],
+        "responses": ["sama-sama, senang bisa membantu anda", "sama-sama bos", 
+        "sama-sama, apakah ada pertanyaan lain?"]
+    },
+    {
+        "tag": "7",
+        "patterns": ["hai boleh nanya", "apakah saya boleh bertanya", 
+        "bertanya dong", "saya boleh bertanya"],
+        "responses": ["Hai, tentu anda boleh bertanya. Silahkan ajukan pertanyaan anda", 
+        "tentu bos, mau bertanya apa?", "tentu saja boleh, silahkan ajukan pertanyaan anda"]
+    },
+    {
+        "tag": "8",
+        "patterns": ["siapakah anda", "boleh tahu nama kamu", "anda ini apa", "kamu itu apa", 
+        "apakah anda ini chatbot", "chatbot apa anda ini", "boleh kenalkan dirimu", "kenalin dirimu"],
+        "responses": ["Hai saya adalah FisBot", "Halo, saya adalah FisBot", 
         "Hei, saya adalah chatbot yang bernama FisBot"]
+    },
+    {
+        "tag": "9",
+        "patterns": ["siapa yang menciptakan kamu", "kamu diciptakan oleh siapa", 
+        "boleh tau siapa penciptamu", "siapa si yang nyiptain kamu", "kamu diciptain siapa"],
+        "responses": ["penciptaku adalah seorang mahasiswa bernama M Fikri Sunandar", 
+        "aku diciptakan oleh Fikri, seorang mahasiswa Institut Teknologi Sepuluh Nopember", 
+        "Nama penciptaku adalah Muhamad Fikri Sunandar, seseorang mahasiswa di ITS"]
     }
 ]}
